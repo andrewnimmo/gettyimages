@@ -1,6 +1,6 @@
 <?php
 
-namespace GettyImages\Api\Request\Search {
+namespace Getty\Api\Request\Search {
     //Require Filters
     require_once("Filters/EthnicityFilter.php");
     require_once("Filters/EditorialSegmentFilter.php");
@@ -22,12 +22,12 @@ namespace GettyImages\Api\Request\Search {
     require_once("SearchVideosCreative.php");
     require_once("SearchVideosEditorial.php");
 
-    use GettyImages\Api\Request\FluentRequest;
-    use GettyImages\Api\Request\WebHelper;
+    use Getty\Api\Request\FluentRequest;
+    use Getty\Api\Request\WebHelper;
 
     use Exception;
-    use GettyImages\Api\Request\Search\Filters\AgeOfPeopleFilter;
-    use GettyImages\Api\Request\Search\Filters\LicenseModelFilter;    
+    use Getty\Api\Request\Search\Filters\AgeOfPeopleFilter;
+    use Getty\Api\Request\Search\Filters\LicenseModelFilter;    
 
     /**
      * Provides the basic infrastructure for building up a Search Request.

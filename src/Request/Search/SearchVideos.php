@@ -3,11 +3,11 @@
  * Contains the implementations of Video Searching
  */
 
-namespace GettyImages\Api\Request\Search {
+namespace Getty\Api\Request\Search {
     
     use Exception;
-    use GettyImages\Api\Request\Search\Filters\AgeOfPeopleFilter;
-    use GettyImages\Api\Request\Search\Filters\FormatFilter;
+    use Getty\Api\Request\Search\Filters\AgeOfPeopleFilter;
+    use Getty\Api\Request\Search\Filters\FormatFilter;
     
     /**
      * Provides Video Search specific behavior

@@ -1,5 +1,5 @@
 <?php
-namespace GettyImages\Api\Request\Search\Filters {
+namespace Getty\Api\Request\Search\Filters {
 
     abstract class GraphicalStyleFilter  {
 

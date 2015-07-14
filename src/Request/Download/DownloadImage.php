@@ -1,8 +1,8 @@
 <?php
 
-namespace GettyImages\Api\Request\Download  {
+namespace Getty\Api\Request\Download  {
 
-    use GettyImages\Api\Request\WebHelper;
+    use Getty\Api\Request\WebHelper;
 
     class DownloadImage extends Download {
 

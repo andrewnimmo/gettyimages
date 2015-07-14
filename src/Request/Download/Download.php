@@ -1,9 +1,9 @@
 <?php
 
-namespace GettyImages\Api\Request\Download {
+namespace Getty\Api\Request\Download {
 
-    use GettyImages\Api\Request\FluentRequest;
-    use GettyImages\Api\Request\WebHelper;
+    use Getty\Api\Request\FluentRequest;
+    use Getty\Api\Request\WebHelper;
 
     //Require Other Search Types
     require_once("DownloadImage.php");

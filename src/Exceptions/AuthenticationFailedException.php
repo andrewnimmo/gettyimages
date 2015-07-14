@@ -4,7 +4,7 @@
  *
  */
 
-namespace GettyImages\Api\Exception {
+namespace Getty\Api\Exception {
 
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace GettyImages\Api\Request\Search {
+namespace Getty\Api\Request\Search {
 
     class SearchVideosCreative extends SearchVideos {
 

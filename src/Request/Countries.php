@@ -1,6 +1,6 @@
 <?php
 
-namespace GettyImages\Api\Request {
+namespace Getty\Api\Request {
 
      class Countries extends FluentRequest {
         protected function getRoute() {

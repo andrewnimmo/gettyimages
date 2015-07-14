@@ -12,7 +12,7 @@
  *
  */
 
-namespace GettyImages\Api {
+namespace Getty\Api {
     require_once("Request/FluentRequest.php");
     require_once("Credentials.php");
     require_once("Request/Collections.php");
@@ -23,13 +23,13 @@ namespace GettyImages\Api {
     require_once("Request/Videos.php");
     require_once("Request/Search/Search.php");
 
-    use GettyImages\Api\Request\Search\Search;
-    use GettyImages\Api\Request\Download\Download;
-    use GettyImages\Api\Request\Images;
-    use GettyImages\Api\Request\Videos;
-    use GettyImages\Api\Request\Collections;
-    use GettyImages\Api\Request\Countries;
-    use GettyImages\Api\Crendentials;
+    use Getty\Api\Request\Search\Search;
+    use Getty\Api\Request\Download\Download;
+    use Getty\Api\Request\Images;
+    use Getty\Api\Request\Videos;
+    use Getty\Api\Request\Collections;
+    use Getty\Api\Request\Countries;
+    use Getty\Api\Crendentials;
 
     /**
      * GettyImages API SDK - GettyImages_Client

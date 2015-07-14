@@ -3,17 +3,17 @@
  * Contains the implementations of Image Searching
  */
 
-namespace GettyImages\Api\Request\Search {
+namespace Getty\Api\Request\Search {
     use Exception;
     
-    use GettyImages\Api\Request\Search\Filters\GraphicalStyleFilter;
-    use GettyImages\Api\Request\Search\Filters\LicenseModelFilter;
-    use GettyImages\Api\Request\Search\Filters\OrientationFilter;
-    use GettyImages\Api\Request\Search\Filters\NumberOfPeopleFilter;
+    use Getty\Api\Request\Search\Filters\GraphicalStyleFilter;
+    use Getty\Api\Request\Search\Filters\LicenseModelFilter;
+    use Getty\Api\Request\Search\Filters\OrientationFilter;
+    use Getty\Api\Request\Search\Filters\NumberOfPeopleFilter;
     
-    use GettyImages\Api\Request\Search\Filters\EthnicityFilter;
-    use GettyImages\Api\Request\Search\Filters\FileTypeFilter;
-    use GettyImages\Api\Request\Search\Filters\CompositionFilter;
+    use Getty\Api\Request\Search\Filters\EthnicityFilter;
+    use Getty\Api\Request\Search\Filters\FileTypeFilter;
+    use Getty\Api\Request\Search\Filters\CompositionFilter;
 
     /**
      * Provides Image Search specific behavior

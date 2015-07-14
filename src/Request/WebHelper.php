@@ -3,7 +3,7 @@
  * Provides general helpers around curl
  */
 
-namespace GettyImages\Api\Request {
+namespace Getty\Api\Request {
 
     /**
      * @ignore
