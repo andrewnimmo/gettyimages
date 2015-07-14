@@ -22,7 +22,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "GettyImages\\Api\\": "src/"
+            "Getty\\Api\\": "src/"
         }
     }
 }
