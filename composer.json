@@ -1,0 +1,28 @@
+{
+    "name": "getty/gettyimages-api",
+    "description": "Getty Images API SDK - PHP",
+    "version": "2.0.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "keywords": ["images","getty","gettyimages","photo","photos","search","creative","artist","embed"],
+    "homepage": "http://developer.gettyimages.com",
+    "authors": [
+        {
+            "name": "Sushil Bajimaya",
+            "email": "sushil.bajimaya@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev" : {
+        "phine/phar": "~1.0",
+        "behat/behat": "~3.0.6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "GettyImages\\Api\\": "src/"
+        }
+    }
+}

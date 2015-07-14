@@ -1,0 +1,17 @@
+#behat.yml
+default:
+  autoload:
+    '': %paths.base%/bdd_bootstrap
+  suites:
+    default:
+      contexts: 
+        - FeatureContext
+        - SharedContext
+        - AuthenticationContext
+        - CollectionsContext
+        - CountriesContext
+        - DownloadsContext
+        - ImageSearchContext
+        - ImagesContext
+        - VideosContext
+        - VideoSearchContext
