@@ -1,6 +1,6 @@
 <?php
 
-namespace Gettys\Api\Request\Search\Filters {
+namespace Getty\Api\Request\Search\Filters {
 
     abstract class FileTypeFilter {
 
